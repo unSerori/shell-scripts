@@ -18,7 +18,7 @@ if [ $# -gt 0 ]; then
 fi
 
 FILE_BASE_NAME="try_file"
-FILE_EXT=".a"
+FILE_EXT=".sh"
 
 # .の有無を揃えるために、先頭の.を削除して追加する
 EXT_WITHOUT_DOT="${FILE_EXT:+${FILE_EXT#.}}"
