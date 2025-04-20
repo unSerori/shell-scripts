@@ -9,3 +9,4 @@
 [引数でディレクトリを渡されていたら移動](./cd_arg_dir.sh)  
 [一度きりスケジュールを登録](./schedule_only_once.sh)  
 [特定のファイルを監視する](./watch_file.sh)
+[受け取ったディレクトリにログを出力する](./try_log_at_specif_dir.sh)
