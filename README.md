@@ -10,3 +10,9 @@
 [一度きりスケジュールを登録](./schedule_only_once.sh)  
 [特定のファイルを監視する](./watch_file.sh)
 [受け取ったディレクトリにログを出力する](./try_log_at_specif_dir.sh)
+
+## 権限
+
+- bashで実行する**スクリプト**はbashが読み込んで実行するので**読み込み権限のみ**あればいい `chmod 744 hoge.sh hogera.sh...`
+- スクリプト内からsourceで読み込まれる**スクリプト**も同様
+- 直接実行する**コマンド**には**実行権限**が必要 `chmod 755 piyo.sh piyora.sh...`
