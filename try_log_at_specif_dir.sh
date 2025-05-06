@@ -10,6 +10,6 @@ ERR_LOG_PATH="${LOG_DIR}log.err.log"
 {
   echo "date: $(date)"
   echo try_log_at_specif_dir.sh
-  cmd >> "$OUT_LOG_PATH" 2>> "$ERR_LOG_PATH"
+  cmd >>"$OUT_LOG_PATH" 2>>"$ERR_LOG_PATH"
   echo
-} >> "${1}log.log"
+} >>"${1}log.log"

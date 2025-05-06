@@ -14,6 +14,7 @@
 [インストール系の処理集](./installs.sh)
 [全てのディレクトリに対してループ処理](./loop_each_dir_process.sh)
 [キーバリュー形式のファイルを読み込みループ処理](./loop_keyvalue_file.sh)
+[バックグラウンドで実行](./exec_back.sh)
 
 ## 権限
 
