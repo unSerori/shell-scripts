@@ -2,6 +2,8 @@
 
 # 引数でディレクトリを渡されていたら移動
 
+pwd
+
 if [ $# -gt 0 ]; then
     cd "$1" 2>/dev/null || {
         echo "Failure CD command."
@@ -9,3 +11,5 @@ if [ $# -gt 0 ]; then
         echo "Running in the script's current directory."
     }
 fi
+
+pwd
